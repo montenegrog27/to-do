@@ -1,0 +1,23 @@
+.pagination {
+  margin-top: 20px;
+}
+
+.pagination li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.pagination li a {
+  color: #007bff;
+  cursor: pointer;
+}
+
+.pagination li.active a {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.list-item-hover:hover {
+  background-color: #cce5ff;
+}
